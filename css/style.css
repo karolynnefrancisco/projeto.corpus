@@ -41,6 +41,7 @@ a:hover, a:focus {
 }
 ul, ol {
 	list-style: none;
+	text-align:left
 }
 ul, ol {
 	padding: 0;
@@ -106,7 +107,7 @@ hr {
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 .section-title p {
 	font-size: 18px;
@@ -122,6 +123,7 @@ hr {
 	border-radius: 2px;
 	margin-top: 20px;
 	transition: all 0.3s;
+	width:250px
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
@@ -158,12 +160,12 @@ hr {
 }
 header .intro-text {
 	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 60px 0;
 }
 #about h3 {
 	font-size: 22px;
@@ -334,7 +336,7 @@ label {
 	display: block;
 	width: 100%;
 	padding: 6px 12px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.42857143;
 	color: #444;
 	background-color: #fff;
@@ -413,4 +415,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	float: left;
 	margin-bottom: 20px;
 }
+
+/*downloads*/
+#downloads {
+	padding: 120px 0;
+	background: #f6f6f6;
+	alignment-adjust:auto
 }
+#downloads .fa {
+	font-size: 48px;
+	margin: 20px 0;
+	color: #0ba2db;
