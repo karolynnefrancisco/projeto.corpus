@@ -177,6 +177,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 120px 0;
+	background: #FFFFFF;
 }
 #about h3 {
 	font-size: 22px;
@@ -219,6 +220,11 @@ header .intro-text {
 	font-size: 48px;
 	margin: 20px 0;
 	color: #0ba2db;
+}
+/* Depoimentos Section */
+#depoimentos {
+	padding: 120px 0;
+	background: #FFFFFF;
 }
 /* Pricing Section */
 #pricing {
