@@ -24,13 +24,24 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #0ba2db;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 0;
+}
 p {
 	font-size: 16px;
+	line-height: normal;
 }
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
-	line-height: 24px;
 }
 a {
 	color: #0ba2db;
@@ -165,7 +176,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 60px 0;
+	padding: 120px 0;
 }
 #about h3 {
 	font-size: 22px;

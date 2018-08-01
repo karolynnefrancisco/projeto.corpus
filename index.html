@@ -2,13 +2,12 @@
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
+<meta name="author" content="">
+<meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projeto Corpus Anatomy</title>
-<meta name="description" content="">
-<meta name="author" content="">
 
-<!-- Favicons
-    ================================================== -->
+<!-- Favicons -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
@@ -18,330 +17,449 @@
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-<!-- Stylesheet
-    ================================================== -->
+<!-- StyleSheet -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+<!-- CSS slider -->
+<link href="slider/css/slider-bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="slider/css/style-slider.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
-    ==========================================-->
-<nav id="menu" class="navbar navbar-default navbar-fixed-top">
- <div class="container"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-ellipsis-v"></i> </a><img src="img/anhanguera.svg" width="50" height="50"> <img src="img/fama.svg" width="50" height="50"> <img src="img/pitagoras.svg" width="50" height="50"> <img src="img/unic.svg" width="50" height="50"> <img src="img/uniderp.svg" width="50" height="50"> <img src="img/unopar.svg" width="50" height="50">   <img src="img/unime.svg" width="50" height="50"></p>
-       
-    </div>
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="page-scroll">Sobre o Evento</a></li>
-        <li><a href="#services" class="page-scroll">Programa</a></li>
-        <li><a href="#pricing" class="page-scroll">Investimento</a></li>
-        <li><a href="docs/REGULAMENTO DO CURSO Anatomy GPS - IAA 13 a 19-12-2018.pdf" target="_blank" class="page-scroll">Regulamento</a>
-        <li><a href="#contact" class="page-scroll"> <font color="#00FFFF"><strong>Pré-Inscrição</strong></font></a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse --> 
-  </div>
-  <!-- /.container-fluid --> 
-</nav>
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="intro-text">
-          	<h1>Projeto CORPUS ANATOMY </h1>
-           <p>Faça parte do primeiro grupo de alunos e professores deste <strong> Programa de Intercâmbio Internacional</strong>. Vagas limitadas! </p>
-          <a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">Pré-Inscrição</a> <p>
-          Vagas Limitadas!
-         <div id="logos" >
-       <font color="#FFFFFF"> Parceria:</font> <p></span><img src="img/Logo_IAA.png" width="196" height="101"> <img src="img/248px-University_of_South_Florida_seal.svg.png" alt="University of South Florida" width="84" height="84">
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
-<!-- About Section -->
+==========================================-->
+	<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+		<div class="container"> 
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-ellipsis-v"></i></a>
+				<img src="img/anhanguera.svg" width="50" height="50" alt="Anhanguera">
+				<img src="img/fama.svg" width="50" height="50" alt="Fama">
+				<img src="img/pitagoras.svg" width="50" height="50" alt="Pitágoras">
+				<img src="img/unic.svg" width="50" height="50" alt="Unic">
+				<img src="img/uniderp.svg" width="50" height="50" alt="Uniderp">
+				<img src="img/unopar.svg" width="50" height="50" alt="Unopar">
+				<img src="img/unime.svg" width="50" height="50" alt="Unime">
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about" class="page-scroll">Sobre o Evento</a></li>
+					<li><a href="#services" class="page-scroll">Programa</a></li>
+					<li><a href="#pricing" class="page-scroll">Investimento</a></li>
+                    <li><a href="#depoimentos" class="page-scroll">Depoimentos</a></li>
+					<li><a href="#contact" class="page-scroll" style="color:#00daff"><strong>Pré-Inscrição</strong></a></li>
+				</ul>
+			</div> 
+		</div>
+	</nav>
+	
+	<!-- PROJETO CORPUS ANATOMY -->
+	<header id="header">
+		<div class="intro">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="intro-text">
+						<h1>PROJETO CORPUS ANATOMY</h1>
+						<p>Faça parte do primeiro grupo de alunos e professores deste <strong> Programa de Intercâmbio Internacional</strong>. Vagas limitadas! </p>
+						<p><a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">Pré-Inscrição</a></p>
+						<p>Vagas Limitadas!</p>
+							<div id="logos" >
+							<p style="font-size: 14px;">Parceria:<br><img src="img/Logo_IAA.png" width="196" height="101" alt="IAA / GPA"><img src="img/248px-University_of_South_Florida_seal.svg.png" alt="University of South Florida" width="84" height="84"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+<!-- Sobre o Evento -->
 <div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <br>
-		<br>
-	<h2>Sobre o Evento</h2>
-    <hr>
-    </div>
-  <div class="row">
-   <div class="col-md-12">
-   <img src="img/silvanna-pasetto.png" class="img-responsive"> <br>
+<div class="container">
+<div class="section-title text-center center">
+<h2>Sobre o Evento</h2>
+<hr>
+</div>
+<div class="row">
+<div class="col-md-12">
+<img src="img/silvanna-pasetto.png" class="img-responsive" alt="Silvana Passeto"> <br>
 <br>
-	<br>
-		<br>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="about-text">
-       <h1><strong>1˚ Intercâmbio Brasil-EUA de Anatomia Clínica Aplicada em Cadáver Fresco! </strong> </h1>
-		<p align="justify"> O 1˚ <strong> Intercâmbio Internacional </strong> de Anatomia Clínica Aplicada é destinado aos alunos e professores dos cursos de medicina e Odontologia. 
-Além de oferecer toda a infraestrutura de hospedagem e transporte, o curso coloca à disposição dos inscritos o hospital de simulação da Universidade do sul da Flórida (University of South Florida).<p>
-		<p align="justify">O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber certificação internacional. 
-Inscreva-se já, as vagas são limitadas! </p>
-          <div class="list-style"> 
-            <div class="col-xs-12 col-md-3">
-              <ul>
-               <li>Curso de 6 dias </li>
-                <li>Hospedagem </li>
-                <li>Alimentação </li>
-                <li>Traslado</li> 
-               </ul>
-            </div>
-            <div class="col-xs-12 col-md-9">
-              <ul>
-                <li>Curso ministrado em português e com práticas em cadáver fresco</li>
-                <li>Tour pelo Hospital de simulação da University of South Florida</li>
-                <li>Certificação Internacional</li>
-                <li>Solenidade de formatura para todos os participantes</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<br>
+<br>
+<div class="col-md-8 col-md-offset-2">
+<div class="about-text">
+<h1><strong>1˚ Intercâmbio Brasil-EUA de Anatomia Clínica Aplicada em Cadáver Fresco! </strong> </h1>
+<p align="justify"> O 1˚ <strong>Intercâmbio Internacional</strong> de Anatomia Clínica Aplicada é destinado aos alunos e professores dos cursos de Medicina e Odontologia. Além de oferecer toda a hospedagem e transporte, o programa conta com a infraestrutura do hospital de simulação da Universidade do sul da Flórida (University of South Florida).</p><p>
+<p align="justify">Seu grande diferencial são as práticas em <strong>cadáveres frescos</strong>! Ao final do curso, todos os participantes receberão certificação internacional. Inscreva-se já, as vagas são limitadas!</p>
+<div class="list-style"> 
+<div class="col-xs-12 col-md-3">
+<ul>
+<li>Curso com de 6 dias de duração </li>
+<li>Hospedagem </li>
+<li>Alimentação </li>
+<li>Traslado</li> 
+</ul>
+</div>
+<div class="col-xs-12 col-md-9">
+<ul>
+<li>Curso ministrado em português</li>
+<li>Práticas em cadáver fresco</li>
+<li>Tour pelo Hospital de simulação da University of South Florida</li>
+<li>Certificação Internacional</li>
+<li>Solenidade de formatura para todos os participantes</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div><br>
 <br>
 
 <!-- Services Section -->
 <div id="services" class="text-center">
-  <div class="container">
-    <div class="col-md-12 section-title">
-      <h2>O Programa</h2>
-      <hr>
-	</div>
-    <div class="row">
-      <div class="col-xs-12 col-md-3"> <i class="fa fa-certificate"></i>
-        <h4>Certificado Internacional</h4>
-        <p>Curso ministrado nas instalações do Hospital de simulação da University of South Florida ( USA ) e com dupla certificação (internacional/Kroton).</p>
-	</div>
-      <div class="col-xs-12 col-md-3"> <i class="fa fa-medkit"></i>
-        <h4>PRÁTICA CLÍNICA APLICADA</h4>
-        <p> Maior curso de Anatomia Clínica Aplicada com prática em cadáver fresco o que, comprovadamente, diminuem erros médicos.</p>
-	</div>
-      <div class="col-xs-12 col-md-3"> <i class="fa fa-language"></i>
-        <h4>CURSO TOTALMENTE EM PORTUGUÊS</h4>
-        <p>Curso 100% ministrado em português por renomados médicos Anatomistas. </p>
-	</div>
-      <div class="col-xs-12 col-md-3"> <i class="fa fa-heartbeat"></i>
-        <h4>APRENDIZAGEM EM CADÁVER FRESCO</h4>
-        <p>1˚ intercâmbio Brasil-Estados Unidos de Anatomia Clínica Aplicada com prática em cadáver fresco e com carga horária de 36 horas/aula. </p>
-        </div>
-         </div>
-        	<br>
-        		<br>
-    <div class="col-md-12">
-         <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/281607288"></iframe>
-	</div><br>
-    </div>
-    	</div>
-        	</div>
-                </div>
-        
-      	</div>
-			</div>
-				</div>
+<div class="container">
+<div class="col-md-12 section-title">
+<h2>O Programa</h2>
+<hr>
+</div>
+<div class="row">
+<div class="col-xs-12 col-md-3"> <i class="fa fa-certificate"></i>
+<h4>Certificado Internacional</h4>
+<p>Curso ministrado nas instalações do Hospital de simulação da University of South Florida (USA). Dupla certificação (internacional / Kroton).</p>
+</div>
+<div class="col-xs-12 col-md-3"> <i class="fa fa-medkit"></i>
+<h4>PRÁTICA CLÍNICA APLICADA</h4>
+<p>Curso de Anatomia Clínica Aplicada com prática em cadáver fresco o que, comprovadamente, diminuem erros médicos.</p>
+</div>
+<div class="col-xs-12 col-md-3"> <i class="fa fa-language"></i>
+<h4>CURSO TOTALMENTE EM PORTUGUÊS</h4>
+<p>Curso 100% ministrado em português por renomados médicos anatomistas.</p>
+</div>
+<div class="col-xs-12 col-md-3"> <i class="fa fa-heartbeat"></i>
+<h4>APRENDIZAGEM EM CADÁVER FRESCO</h4>
+<p>1˚ intercâmbio Brasil-Estados Unidos de Anatomia Clínica Aplicada com prática em cadáver fresco e com carga horária de 36 horas/aula.</p>
+</div>
+</div>
+<br>
+<br>
+<div class="col-md-12">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/281607288"></iframe>
+</div><br>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
 
 <!-- Depoimentos -->
 
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center"><br>
-	<h2>Depoimentos</h2>
-    <hr>
-	</div>  
-    <div class align="center"><p><img src="img/teste-testemonial.jpg" class="img-responsive thumbnail" alt=""></p></div>
-	</div>
+<div id="depoimentos">
+<div class="container">
+<div class="section-title text-center center"><br>
+<h2>Depoimentos</h2>
+<hr>
+</div>
+</div>
+
+
+<!-- Section: testimonial -->
+<section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
+
+<div class="carousel-reviews broun-block">
+<div class="container">
+<div class="row">
+<div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+
+<div class="carousel-inner">
+<div class="item active">
+<div class="col-md-4 col-sm-6">
+<div class="block-text rel zmin">
+<a title="" href="#">Cirurgião Geral</a>
+<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+<p>O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber certificação internacional. Inscreva-se já, as vagas são limitadas! ...</p>
+<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+</div>
+<div class="person-text rel text-light">					
+<img src="slider/img/testimonials/1.jpg" alt="" class="person img-circle" />
+<a title="" href="#">Thiago Toshio</a>
+<span>Chicago, Illinois</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 hidden-xs">
+<div class="block-text rel zmin">
+<a title="" href="#">Dir Produção Multimidia</a>
+<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+<p>O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber certificação internacional. Inscreva-se já, as vagas são limitadas!...</p>
+<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+</div>
+<div class="person-text rel text-light">
+<img src="slider/img/testimonials/2.jpg" alt="" class="person img-circle" />
+<a title="" href="#">Alberto Santana</a>
+<span>Valinhos, São Paulo</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+<div class="block-text rel zmin">
+<a title="" href="#">Anatomista</a>
+<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+<p>O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber certificação internacional. Inscreva-se já, as vagas são limitadas! ...</p>
+<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+</div>
+<div class="person-text rel text-light">
+<img src="slider/img/testimonials/3.jpg" alt="" class="person img-circle" />
+<a title="" href="#">Silvana Pasetto</a>
+<span>Dallas, Texas</span>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-md-4 col-sm-6">
+<div class="block-text rel zmin">
+<a title="" href="#">Jornalista</a>
+<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+<p>O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber...</p>
+<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+</div>
+<div class="person-text rel text-light">
+<img src="slider/img/testimonials/4.jpg" alt="" class="person img-circle" />
+<a title="" href="#">Ana Gabriela Akl</a>
+<span>Austin, Texas</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 hidden-xs">
+<div class="block-text rel zmin">
+<a title="" href="#">Cardiologista</a>
+<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+<p>O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber...</p>
+<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+</div>
+<div class="person-text rel text-light">
+<img src="slider/img/testimonials/5.jpg" alt="" class="person img-circle" />
+<a title="" href="#">Marcelo Palmero</a>
+<span>São Paulo, Brasil</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+<div class="block-text rel zmin">
+<a title="" href="#">Ortopedista</a>
+<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+<p>O grande diferencial está no fato do curso ser ministrado com práticas em cadáver fresco e ao final, todos os participantes vão receber...</p>
+<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+</div>
+<div class="person-text rel text-light">
+<img src="slider/img/testimonials/6.jpg" alt="" class="person img-circle" />
+<a title="" href="#">Marco Aurélioa</a>
+<span>Campinas, São Paulo</span>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- /Section: testimonial -->
+
+
 
 <!-- Pricing Section -->
 <div id="pricing" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Investimento</h2>
-      <hr>
-      <p>1˚ Intercâmbio <strong>Brasil-Estados Unidos</strong> de Anatomia Clínica Aplicada em <strong>cadáver fresco</strong>para alunos e professores dos cursos de Medicina e Odontologia. O evento será realizado no Hospital de simulação da University of South Florida de <strong>16 a 19 de dezembro de 2018</strong>.<br>Faça já a sua pré-inscrição, as vagas são limitadas!</p>
-   
-    <div class="row">
-      <div class="col-md-4 col-md-offset-2">
-        <div class="pricing-table">
-          <div class="plan-name">
-            <h3>INVISTA NA SUA CARREIRA<br>
-            </h3>
-          </div>
-          <div class="plan-list">
-            <ul>
-              <li>Evento exclusivo para alunos do Grupo Kroton<br>
-(medicina e odontologia)</li>
-              <li>Certificação Internacional</li>
-              <li>Solenidade de formatura</li>
-              <li>Assessoria de viagem gratuita</li>
-              <li>Pagamento facilitado</li>
-              <li>Vagas limitadas</li>
- 			  <li>Vagas limitadas</li>
-              <li>Vagas limitadas</li>
-              <li>Vagas limitadas</li>
-            </ul>
-        </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="pricing-table highlight-plan">
-          <div class="plan-name">
-            <h3>PACOTE DE INTERCÂMBIO PARA ALUNOS</h3>
-          </div>
-          <div class="plan-price">
-            <div class="price-value">US$1,800</div>
-          </div>
-          <div class="plan-list">
-            <ul>
-              <li>Curso de Anatomia Clínica Aplicada</li>
-              <li>Evento 6 dias/ 4 noites</li>
-              <li>Hospedagem Disney/  Windham Resort</li>
-              <li>Alimentação e Translados</li>
-              <li>O pacote não contempla as passagens  aéreas</li>
-            </ul>
-          </div>
-         <div class="plan-signup"> <a href="#contact" class="btn-system border-btn">quero fazer minha PRÉ-INSCRIÇÃO</a> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div>
+<div class="container">
+<div class="section-title center">
+<h2>Investimento</h2>
+<hr>
+<p>1˚ Intercâmbio <strong>Brasil-Estados Unidos</strong> de Anatomia Clínica Aplicada em cadáver fresco para alunos e professores dos cursos de Medicina e Odontologia. O evento será realizado no Hospital de simulação da University of South Florida de <strong>16 a 19 de dezembro de 2018</strong>.<br> Faça já a sua pré-inscrição, as vagas são limitadas!/p>
 
-<!-- downloads>
-<div>
-<div>
-<div>
-<div><div>
-<div>
-<div id="downloads" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>&nbsp;</h2>
-      <h2>&nbsp;</h2>
-      <h2>Regulamento</h2>
-      <hr>
-      <div class="row">
-      <div class="col-xs-12 col-md-6"> <i class="fa fa-file-pdf-o"></i>
-        <h4>Download Regulamento</h4>
-      </div>
-      <div class="col-xs-6 col-md-12"> <i class="fa fa-file-pdf-o"></i>
-        <h4>Download Programa</h4>
-           </div>
-      </div>
-      
-   </div>
- <!-- downloads -->  
- 
+<div class="row">
+<div class="col-md-4 col-md-offset-2">
+<div class="pricing-table">
+<div class="plan-name">
+<h3>INVISTA NA SUA CARREIRA<br>
+</h3>
+</div>
+<div class="plan-list">
+<ul>
+<li>Evento exclusivo para alunos do Grupo Kroton<br>
+(medicina e odontologia)</li>
+<li>Certificação Internacional</li>
+<li>Solenidade de formatura</li>
+<li>Assessoria de viagem gratuita</li>
+<li>Simulação cirúrgica e de trauma</li>
+<li>Simulação CTI</li>
+<li>Revisão Anatômica</li>
+<li>Treinamento de urgência </li>
+<li>Pagamento facilitado</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="pricing-table highlight-plan">
+<div class="plan-name">
+<h3>PACOTE DE INTERCÂMBIO PARA ALUNOS</h3>
+</div>
+<div class="plan-price">
+<div class="price-value">US$1,800</div>
+</div>
+<div class="plan-list">
+<ul>
+<li>Curso de Anatomia Clínica Aplicada</li>
+<li>Evento de 6 dias / 4 noites</li>
+<li>Hospedagem Disney / Windham Resort</li>
+<li>Alimentação e traslados inclusos</li>
+<li>O pacote não inclui as passagens  aéreas</li>
+</ul>
+</div>
+<div class="plan-signup"> <a href="#contact" class="btn-system border-btn">quero fazer minha PRÉ-INSCRIÇÃO</a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div> 
+
 <!-- Contact Section -->
 <div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Faça sua Pré-Inscrição</h2>
-      <hr>
-       <div class="col-md-8 col-md-offset-2"> <p>Deixe seus dados e garanta já a sua pré-inscrição para o 1˚ intercâmbio Brasil-Estados Unidos de Anatomia Clínica Aplicada. As vagas são limitadas!</p></div>
-      <div class="col-md-8 col-md-offset-2">
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="row">
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Nome Completo" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Instituição" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Curso" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Ano" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Período" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Email" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-7">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="CPF" required>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-md-offset-7">
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Qual a sua espectativa para este Intercâmbio Internacional?" required></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-          <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Fazer Pré-Inscrição</button>
-        </form>
-        <div class="social">
-          <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      </div>
-  </div>
-  </div>  
-    </div>
-  </div>
+<div class="container">
+<div class="section-title center">
+<h2>Faça sua Pré-Inscrição</h2>
+<hr>
+<div class="col-md-8 col-md-offset-2"> <p>Preencha seus dados e garanta já a sua pré-inscrição para o 1˚ intercâmbio <br>
+<strong>Brasil - Estados Unidos</strong> de Anatomia Clínica Aplicada. As vagas são limitadas!<p>Ao realizar sua pré-inscrição, você receberá automaticamente um e-mail contendo todas as informações sobre a <strong>assessoria de viagem</strong>, gratuita e exclusiva, para os alunos da Kroton. Este serviço oferece a orientação completa</strong> sobre a documentação necessária para a realização do intercâmbio (passaporte, visto facilitado, vacinas e seguro).
+<p><em>Baixar regulamento</em> <a href="docs/regulamento-corpusanatomy-2018.pdf" target="_blank"><img src="img/pdf-1.png" width="60" height="60"></a>
+</p><br></div>
+<form name="sentMessage" id="contactForm" novalidate>
+<div class="row">
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="text" id="name" class="form-control" placeholder="Nome Completo" required>
+<p class="help-block text-danger"></p>
 </div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="text" id="name" class="form-control" placeholder="Instituição" required>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="text" id="name" class="form-control" placeholder="Curso" required>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="text" id="name" class="form-control" placeholder="Ano" required>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="text" id="name" class="form-control" placeholder="Período" required>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="email" id="email" class="form-control" placeholder="E-mail" required>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<input type="email" id="email" class="form-control" placeholder="CPF" required>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group">
+<textarea name="message" id="message" class="form-control" rows="4" placeholder="Qual a sua espectativa para este Intercâmbio Internacional?" required></textarea>
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="col-md-4 col-md-offset-6">
+<div class="form-group"> <p align="left">
+Como você pretende realizar o pagamento deste investimento?<br><br>
+
+<select name="Pagamento" class="form-group"> 
+<option value="Cartão de Crédito">Cartão de Crédito (em até 5x sem juros)</option>
+<option value="Boleto">Boleto Bancário (em até 5x sem juros)</option>
+<option value="A vista">A vista</option>
+</select></p> 
+</div>
+
+<div id="success"></div>
+<button type="submit" class="btn btn-custom btn-lg">Fazer Pré-Inscrição</button>
+</form>
+<div class="social">
+<ul>
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>  
+</div>
+</div>
+</div>
+
 <div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2018 PROJETO CORPUS ANATOMY</p>
-    </div>
-  </div>
+	<div class="container text-center">
+		<div class="fnav">
+		<p>Copyright &copy; 2018 PROJETO CORPUS ANATOMY</p>
+		</div>
+	</div>
 </div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+
+<!-- JavaScript -->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<!-- JavaScript Slider	  -->
+<script src="slider/js/slider-jquery.min.js"></script>
+<script src="slider/js/slider-bootstrap.min.js"></script>
+
 </body>
 </html>
