@@ -625,7 +625,7 @@ Navigation
 ============================ */
 
 .home-section {
-    padding-top: 150px;
+    padding-top: 50px;
 	display:block;
     position:relative;
     z-index:120;
@@ -1633,7 +1633,7 @@ a.scrollup i:hover {
 	font-weight: 400;	
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 14px;
-
+	border-radius: 0%;
 	font-weight: 700;
 }
 
