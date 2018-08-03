@@ -30,7 +30,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #0ba2db;
+	background: #45C4DF;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: 0;
@@ -44,7 +44,7 @@ p.intro {
 	margin: 12px 0 0;
 }
 a {
-	color: #0ba2db;
+	color: #45C4DF;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -64,7 +64,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #0ba2db;
+	background: #45C4DF;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: 0;
@@ -86,7 +86,7 @@ hr {
 	text-transform: uppercase;
 }
 #menu a.navbar-brand i.fa {
-	color: #0ba2db;
+	color: #45C4DF;
 	vertical-align: top;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -98,7 +98,7 @@ hr {
 	background: none !important;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #0ba2db;
+	color: #45C4DF;
 	background: none !important;
 }
 .on {
@@ -107,14 +107,14 @@ hr {
 	padding: 40px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #0ba2db !important;
+	color: #45C4DF !important;
 	background-color: transparent;
 }
 .navbar-toggle {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #0ba2db;
+	background-color: #45C4DF;
 	border-color: #FFFFF;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
@@ -129,7 +129,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #0ba2db;
+	background-color: #45C4DF;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -159,7 +159,7 @@ hr {
 	background: rgba(255,255,255,0.2);
 }
 .intro h1 {
-	color: #0ba2db;
+	color: #45C4DF;
 	font-size: 74px;
 	font-weight: 600;
 	margin-top: 0;
@@ -191,7 +191,7 @@ header .intro-text {
 }
 #about img {
 	display: inline-block;
-	border-color: #0ba2db;
+	border-color: #45C4DF;
 	border-radius: 20px;
 	padding: 20px;
 }
@@ -204,7 +204,7 @@ header .intro-text {
 }
 #about .about-text li:before {
 	content: "✓";
-	color: #0ba2db;
+	color: #45C4DF;
 	padding-right: 10px;
 }
 #about p {
@@ -212,12 +212,11 @@ header .intro-text {
 	margin: 30px 0;
 }
 
+/* galeria */
 .gallery {
-  width: 900px;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0% 0% 0% 10%;
   padding: 0px;
-  background: #fff;
-  box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
 
 .gallery > div {
@@ -234,7 +233,7 @@ header .intro-text {
 }
 
 .gallery > div:hover {
-  y-index: 1;
+  y-index: 9999;
 }
 
 .gallery > div:hover > img {
@@ -245,7 +244,6 @@ header .intro-text {
 .cf:after {
   display: table;
   content:"";
-  line-height:;
  }
 
 .cf:after {
@@ -264,7 +262,7 @@ header .intro-text {
 #services .fa {
 	font-size: 48px;
 	margin: 20px 0;
-	color: #0ba2db;
+	color: #45C4DF;
 }
 /* Depoimentos Section */
 #depoimentos {
@@ -292,7 +290,7 @@ header .intro-text {
   content: "";
   width: 4px;
   height: 100%;
-  background-color: var(--uiTimelineMainColor);
+  background-color:#45C4DF;
 
   position: absolute;
   top: 0;
@@ -308,8 +306,9 @@ header .intro-text {
 
 .timeline__year{
   padding: .5rem 1.5rem;
+  font-weight:700;
   color: var(--uiTimelineSecondaryColor);
-  background-color: var(--uiTimelineMainColor);
+  background-color:#33616B;
 
   position: absolute;
   left: 0;
@@ -328,7 +327,7 @@ header .intro-text {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: var(--uiTimelineMainColor);
+  background-color:#45C4DF;
 
   position: absolute;
   left: 0;
@@ -344,7 +343,7 @@ header .intro-text {
   padding: .5rem 1.5rem;
   text-align: center;
 
-  background-color: var(--uiTimelineMainColor);
+  background-color:#45C4DF;
   color: var(--uiTimelineSecondaryColor);
 }
 
@@ -363,7 +362,7 @@ header .intro-text {
 .timeline__post{
   padding: 1.5rem 2rem;
   border-radius: 2px;
-  border-left: 3px solid var(--uiTimelineMainColor);
+  border-left: 3px solid #45C4DF;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
   background-color: var(--uiTimelineSecondaryColor);
 }
@@ -553,7 +552,7 @@ p:last-child{
 	z-index: 1;
 }
 #pricing .pricing-table.highlight-plan .plan-name {
-	background-color: #0ba2db;
+	background-color: #45C4DF;
 	padding: 25px 0;
 	border-radius: 4px 4px 0 0;
 }
@@ -561,7 +560,7 @@ p:last-child{
 	color: #fff;
 }
 #pricing .pricing-table.highlight-plan .plan-signup {
-	background-color: #0ba2db;
+	background-color: #45C4DF;
 	padding: 30px 0;
 	border-radius: 0 0 4px 4px;
 }
@@ -591,8 +590,8 @@ p:last-child{
 	line-height: 18px;
 }
 .pricing-table.btn-system.border-btn {
-	border-color: #0ba2db;
-	color: #0ba2db;
+	border-color: #45C4DF;
+	color: #45C4DF;
 }
 .pricing-table .plan-list li {
 	padding: 8px;
@@ -607,7 +606,7 @@ p:last-child{
 	padding: 10px 25px;
 	display: inline-block;
 	color: #fff;
-	background-color: #0ba2db;
+	background-color: #45C4DF;
 	margin-right: 5px;
 	font-size: 16px;
 	border-radius: 2px;
@@ -699,7 +698,7 @@ color: #777;
 #contact .social i.fa {
 	font-size: 26px;
 	padding: 4px;
-	color: #0ba2db;
+	color: #45C4DF;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
@@ -729,7 +728,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #666;
 }
 #footer a:hover {
-	color: #0ba2db;
+	color: #45C4DF;
 }
 
 @media (max-width: 1024px) {
@@ -747,5 +746,5 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #downloads .fa {
 	font-size: 48px;
 	margin: 20px 0;
-	color: #0ba2db;
+	color: #45C4DF;
 	
