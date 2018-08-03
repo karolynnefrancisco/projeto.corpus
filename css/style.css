@@ -143,6 +143,23 @@ hr {
 	color: #fff;
 	background-color: #444;
 }
+
+<!--CONTEUDO PROGRAMATICO-->
+
+#teste {
+	padding: 120px 0;
+	background: #FFFFFF;
+}
+#teste .fa {
+	font-size: 30px;
+	padding-right:15px;
+	padding-top:5px;
+	margin: 2px 0;
+	color: #45C4DF;
+}
+.table-bordered {
+	padding:30px;
+}
 /* Header Section */
 .intro {
 	display: table;
@@ -264,6 +281,7 @@ header .intro-text {
 	margin: 20px 0;
 	color: #45C4DF;
 }
+
 /* Depoimentos Section */
 #depoimentos {
 	padding: 120px 0;
@@ -641,7 +659,6 @@ p:last-child{
 }
 #contact form {
 	padding: 10px 0;
-	background: url(../img/vagas.png) no-repeat center center;
 }
 #contact .text-danger {
 	color: #cc0033;
@@ -689,7 +706,10 @@ color: #777;
 color: #777;
 }
 #contact .social {
-	margin-top: 80px;
+	margin-top: 40px;
+}
+#contact .social ul {
+	text-align: center;
 }
 #contact .social ul li {
 	display: inline-block;
