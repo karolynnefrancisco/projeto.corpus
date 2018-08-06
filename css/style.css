@@ -175,6 +175,8 @@ hr {
 header .intro-text {
 	padding-top: 300px;
 	padding-bottom: 100px;
+	padding-left:20px;
+	padding-right:20px;
 	text-align: center;
 }
 
@@ -221,6 +223,8 @@ header .intro-text {
 .program {
 	padding: 120px 0;
 	background: #FFF;
+	padding-left:20px;
+	padding-bottom:20px
 }
 .program .fa {
 	font-size: 30px;
@@ -242,7 +246,16 @@ header .intro-text {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 400px;
+	height: 450px;
+	margin-top:30px;
+}
+
+#pricing1 .fa {
+	font-size: 15px;
+	padding-right:5px;
+	padding-top:5px;
+	margin: 2px 0;
+	color: #666;
 }
 
 #pricing1 .row {
@@ -300,10 +313,10 @@ header .intro-text {
 	color: #45C4DF;
 }
 .pricing1-table .plan-list li {
-	padding: 8px;
-	font-size: 16px;
-	border-bottom: 1px solid #eee;
-	text-align:center
+	padding: 15px;
+	font-size: 15px;
+	border-bottom: 0px solid #eee;
+	text-align:left
 }
 .pricing1-table .plan-list strong {
 	font-weight: 400;
@@ -332,7 +345,7 @@ header .intro-text {
 	box-shadow: none;
 }
 .pricing1-table .plan-list li:first-child {
-	border-top: 1px solid #eee;
+	border-top: 0px solid #eee;
 }
 .pricing1-table .plan-signup {
 	padding: 25px 0;
@@ -382,6 +395,8 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 120px 0;
+	padding-left:20px;
+	padding-right:20px;
 	background: #f6f6f6;
 }
 #services h4 {
@@ -659,6 +674,8 @@ p:last-child{
 /* Pricing Section */
 #pricing {
 	padding: 120px 0 140px 0;
+	padding-left:20px;
+	padding-right:20px;
 	background: #FFFFFF;
 }
 #pricing .pricing-table {
@@ -766,6 +783,8 @@ p:last-child{
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
+	padding-left:20px;
+	padding-right:20px;
 	background: #F6F6F6;
 }
 #contact form {
