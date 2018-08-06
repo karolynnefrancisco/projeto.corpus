@@ -183,10 +183,14 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 120px 0;
-	background: #FFFFFF;
+	background: #000000;
 }
 #about h3 {
 	font-size: 22px;
+}
+	
+#about h2 {
+	color:#FFF;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -227,8 +231,8 @@ header .intro-text {
 	padding-bottom:20px
 }
 .program .fa {
-	font-size: 30px;
-	padding-right:15px;
+	font-size: 20px;
+	padding-right:5px;
 	padding-top:5px;
 	margin: 2px 0;
 	color: #45C4DF;
