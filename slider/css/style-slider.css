@@ -11,20 +11,14 @@
 /* --- pe-icon-7-stroke --- */
 
 
-body {
+body, hmtl {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #ddd;
 	font-size: 16px;
     line-height: 1.6em;
-}
-
-html {
-    width: 100%;
-    height: 100%;
 }
 
 label,
@@ -35,6 +29,23 @@ textarea {
   font-family: 'Open Sans', sans-serif;
   font-size: inherit;
   line-height: inherit;
+}
+
+select {
+	display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 
 /* ===========
@@ -2071,4 +2082,3 @@ a.btn:focus{
 	.intro-content {
 		padding:250px 0 0;
 	}
-}
