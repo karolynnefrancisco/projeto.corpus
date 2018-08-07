@@ -238,7 +238,15 @@ header .intro-text {
 	color: #45C4DF;
 }
 
-/* Pricing Section */
+.upperblue {
+	text-transform:uppercase;
+	font-size: 15px;
+	font-weight:700;
+	color:#45C4DF;
+}
+
+<!--CONTEUDO PROGRAMATICO-->
+
 #pricing1 {
 	padding: 10px;
 	background: #FFFFFF;
@@ -250,7 +258,6 @@ header .intro-text {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 450px;
 	margin-top:30px;
 }
 
@@ -637,7 +644,6 @@ p:last-child{
   max-width: 960px;
   padding-left: 2rem;
   padding-right: 2rem;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -726,6 +732,7 @@ p:last-child{
 .pricing-table .plan-name h3 {
 	font-weight: 300;
 	font-size: 32px;
+	margin:0px;
 }
 .pricing-table .plan-price {
 	padding: 25px 0;
