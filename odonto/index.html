@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projeto Corpus Anatomy - Odontologia</title>
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- StyleSheet -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+<!-- CSS slider -->
+<link href="slider/css/slider-bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="slider/css/style-slider.css" rel="stylesheet">
+
+<!--inicio VALIDA FORMULÁRIO
+<script type="text/javascript">
+function enviardados(){
+if(document.dados.Nome.value=="" || document.dados.Nome.value.length < 3)
+{
+alert( "Por favor, precisamos de seu NOME!" );
+document.dados.Nome.focus();
+return false;
+}
+
+if( document.dados.Email.value=="" || document.dados.e_mail.value.indexOf('@')==-1 || document.dados.Email.value.indexOf('.')==-1 )
+{
+alert( "Por gentileza, preencha o campo E-MAIL corretamente!" );
+document.dados.Email.focus();
+return false;
+}
+
+if (document.dados.Telefone.value.length < 8 )
+{
+alert( "É necessario preencher o campo TELEFONES!" );
+document.dados.Telefone.focus();
+return false;
+}
+
+if (document.dados.Instituição.value=="")
+{
+alert( "Preencha o campo CIDADE, por favor!" );
+document.dados.Instituição.focus();
+return false;
+}
+
+return true;
+}
+</script>
+<!--fim VALIDA FORMULÁRIO-->
+	
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation
+==========================================-->
+	<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+		<div class="container"> 
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-ellipsis-v"></i></a>
+				<img src="img/anhanguera.svg" width="45" height="45" alt="Anhanguera">
+				<img src="img/fama.svg" width="45" height="45" alt="Fama">
+				<img src="img/pitagoras.svg" width="45" height="45" alt="Pitágoras">
+				<img src="img/unic.svg" width="45" height="45" alt="Unic">
+				<img src="img/uniderp.svg" width="45" height="45" alt="Uniderp">
+				<img src="img/unopar.svg" width="45" height="45" alt="Unopar">
+				<img src="img/unime.svg" width="45" height="45" alt="Unime">
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about" class="page-scroll">Evento</a></li>
+					<li><a href="#services" class="page-scroll">Programa</a></li>
+					<li><a href="#depoimentos" class="page-scroll">Depoimentos</a></li>
+                    <li><a href="#timeline" class="page-scroll">Agenda</a></li>
+                    <li><a href="#pricing" class="page-scroll">Investimento</a></li>
+					<li><a href="#contact" class="page-scroll" style="color:#00daff"><strong>Pré-Inscrição</strong></a></li>
+				</ul>
+			</div> 
+		</div>
+	</nav>
+	
+	<!-- PROJETO CORPUS ANATOMY -->
+	<header id="header">
+		<div class="intro">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="intro-text">
+						<center><img src="img/logo_corpus_anatomy.svg" class="img-responsive"></center>
+						  <p>Faça parte do primeiro grupo de <strong>alunos de odontologia</strong> deste Programa de Intercâmbio Internacional. Vagas limitadas </p>
+						<p><a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">Pré-Inscrição</a></p>
+						<p>Vagas Limitadas!</p>
+							<div id="logos" >
+							<p style="font-size: 14px;">Parceria:<br><img src="img/Logo_IAA.png" width="196" height="101" alt="IAA / GPA"><img src="img/248px-University_of_South_Florida_seal.svg.png" alt="University of South Florida" width="84" height="84"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+<!-- Sobre o Evento -->
+<div id="about">
+	<div class="container">
+		<div class="section-title text-center center">
+			<h2>Sobre o Evento</h2>
+			<hr>
+		</div>
+		<div class="row">
+			<div class="col-md-12"><br>
+              <video width="100%" height="100%" poster="img/capa-video-medicina.png" controls>
+   <source src="http://pvbps-sambavideos.akamaized.net/account/182/75/2018-08-07/video/abf3ee3f3dc84d8a2787607360021047/abf3ee3f3dc84d8a2787607360021047_1080p.mp4" type="video/mp4">
+   <source src="movie.ogg" type="video/ogg">
+   Your browser does not support the video tag.
+</video>    		
+  		   	</div>
+   		</div>
+  	</div>
+</div>
+               
+
+<!-- O Programa -->
+<div id="services" class="text-center">
+	<div class="container">
+		<div class="col-md-12 section-title">
+			<h2>O Programa</h2>
+			<hr>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-3"> <i class="fa fa-certificate"></i>
+				<h4>Certificado Internacional</h4>
+				<p>Curso ministrado nas instalações do Hospital de simulação da University of South Florida (USA). Dupla Certificação - Internacional / Kroton.</p>
+			</div>
+			<div class="col-xs-12 col-md-3"> <i class="fa fa-medkit"></i>
+				<h4>PRÁTICA CLÍNICA APLICADA</h4>
+				<p>Curso de Anatomia Clínica Aplicada com prática em cadáver fresco o que, comprovadamente, diminue erros médicos.</p>
+			</div>
+			<div class="col-xs-12 col-md-3"> <i class="fa fa-language"></i>
+				<h4>CURSO TOTALMENTE EM PORTUGUÊS</h4>
+				<p>Curso 100% ministrado em português por renomados médicos anatomistas.</p>
+			</div>
+			<div class="col-xs-12 col-md-3"> <i class="fa fa-heartbeat"></i>
+				<h4>APRENDIZAGEM EM CADÁVER FRESCO</h4>
+				<p>1˚ intercâmbio Brasil-Estados Unidos de Anatomia Clínica Aplicada com prática em cadáver fresco e com carga horária de 36 horas/aula.</p>
+			</div>
+      </div> 
+  </div>
+</div>
+
+<!--CONTEUDO PROGRAMATICO-->
+<div>
+<div class="program"> <div class="text-center">
+	<div class="container">
+  <h2>Contéudo Programático para alunos de Odontologia</h2>
+			<hr>
+		</div>
+		<div class="row">
+		   <div class="col-md-8 col-md-offset-2"> 
+            <ul>
+            <div class="text-center">
+              <p><strong>Neste curso os alunos de <strong>Odontologia</strong> poderão ter uma experiência interativa, cumprindo um total equivalente a 40 horas/aula.</strong></p>
+              <a href="docs/projeto-corpus-anatomy-alunos-odonto-conteúdo-programatico.pdf" target="_blank"><span class="upperblue">Fazer download do Conteúdo Programático em pdf </span><img src="img/pdf-1.png" width="30" height="30" alt="Baixar regulamento"></a></p>
+            </div> 	
+            <br>
+<br>
+		
+		<div class="col-md-8 col-md-offset-2">
+           <ul>
+              <li><i class="fa fa-arrow-circle-right"></i> Introdução ao treinamento simulado</li>
+              <li><i class="fa fa-arrow-circle-right"></i> Tour no hospital da simulação</li>
+              <li> <i class="fa fa-arrow-circle-right"></i> Princípios básicos em emergência médica</li>
+              <li><i class="fa fa-arrow-circle-right"></i> Treinamento em cadáveres frescos na área de anatomia odontológica, cirurgia oral e implantodontia</li>
+              <li><i class="fa fa-arrow-circle-right"></i> Treinamento em cadáveres frescos na área de anatomia odontológica, cirurgia oral e implantodontia</li>
+              <li><i class="fa fa-arrow-circle-right"></i> Apresentação dos grupos e professores</li>
+              <li><i class="fa fa-arrow-circle-right"></i> Ambientação e apresentação dos planos de aula</li>
+			 <li><i class="fa fa-arrow-circle-right"></i> Terminologia anatômica oficial </li>
+             <li><i class="fa fa-arrow-circle-right"></i> Introdução à dissecação e aos planos topográficos de anatomia</li>
+			 <li><i class="fa fa-arrow-circle-right"></i> revisão da anatomia odontológica </li>
+             <li><i class="fa fa-arrow-circle-right"></i> desenvolvimento prático de técnicas cirúrgicas</li></ul>
+           </div>	 
+        </div>
+      </div>
+   </div>
+		
+<div id="pricing1" class="text-center">
+  <div class="container">
+      <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <div class="pricing1-table">
+          <div class="plan-list">
+            <ul>
+              <li>
+                <p><span class="upperblue">ANATOMIA APLICADA AOS PROCEDIMENTOS CIRÚRGICOS MAXILOFACIAIS:</span></p>
+                <p>
+                  • Dissecação anatômica<br>
+                  • Antissepsia<br>
+                  • Paramentação<br>
+                  • Incisão<br>
+                  • Descolamento<br>
+                  • Suturas<br>
+                  • Técnicas de Anestesiologia  aplicada à odontologia (intra e extra-oral)<br>                
+                  • Simulação no ensino e  treinamento em ressuscitação </p>
+                <p><span class="upperblue">EMERGÊNCIAS MÉDICAS:</upperblue></p>
+                <p>
+				 • Ressuscitação RCP<br>
+				 • Técnicas de intubação naso e  orotraqueal<br>
+				 • Acesso venoso<br>
+				 • Noções de ATLS</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-9">
+        <div class="pricing1-table">
+          <div class="plan-list">
+            <ul>
+              <li>
+                <p><span class="upperblue"> Principais técnicas cirúrgicas odontológicas:</span></p>
+                <p><strong>• ABORDAGEM CIRÚRGICA DOS PRINCIPAIS ACESSOS DA CIRURGIA BUCAL</strong><br>
+				- Biopsia<br>
+				- Comunicação bucosinusal<br>
+				- Drenagem de abscesso intra e  extra-oral</p>
+                <p><strong>• EXODONTIAS</strong><strong></strong><br>
+				- Exodontia via alveolar<br>
+				- Exodontia via não alveolar  (técnica aberta)</p>
+                <p><strong>• DENTES INCLUSOS</strong><br>
+				- Acesso cirúrgico para cirurgia dos  terceiros molares inclusos<br>
+				- Acesso cirúrgico no palato,  para dentes inclusos e tórus</p>
+                <p><strong>• PERIODONTIA</strong><br>
+				- Frenectomia Labial e lingual<br>
+				- Enxerto livre do palato<br>
+				- Enxerto conjuntivo
+ 				<p><strong>• IMPLANTODONTIA</strong><br>
+				- Abordagem em áreas doadoras intra-orais de  enxertos de tecido mole e duro<br>
+				- Protocolo para inserção de  implantes<br>
+				- Implantes imediatos: pontos  chaves para uma abordagem de sucesso em alvéolos frescos<br>
+				- Acesso ao Seio maxilar<br>
+Abordagem das áreas doadoras intra-orais para  coleta dos enxertos ósseos autógenos</p>
+                <p><span class="upperblue">BUCOMAXILOFACIAL:</span></p>
+                  <p>• PRINCIPAIS ACESSOS CIRÚRGICOS  NA FACE <br>
+                  • Seminário final – Compilação  das principais técnicas, apresentação de temas mais solicitados pelos  participantes e oportunidade de sanar dúvidas e experiências individuais. -  Perguntas e respostas - Entrega dos Certificados. </p>
+              </li>
+            </ul>
+          </div>
+     	  </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+<!-- Depoimentos -->
+<div id="depoimentos">
+	<section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
+		<div class="container">
+		<h2 class="text-center" style="color:#fff;">Depoimentos</h2>
+		<hr>
+			<div class="carousel-reviews broun-block">
+				<div class="row">
+					<div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<div class="col-md-6 col-sm-6">
+										<div class="block-text rel zmin">
+										<a title="" href="#">PORQUE UM HOSPITAL DA SIMULAÇÃO?</a>
+											<div class="mark">Confiança: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span></span>
+											</div>
+										<p><video width="100%" height="100%" poster="img/capa-video-pergunta1.jpg" controls>
+   <source src="videos/pergunta1.mp4" type="video/mp4">
+   <source src="movie.ogg" type="video/ogg">
+   Your browser does not support the video tag.
+</video> </p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+										</div>
+										<div class="person-text rel text-light">					
+										<img src="slider/img/testimonials/1.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Prof. Alex de Souza</a>
+										<span>Cirurgião Plástico e Anatomista</span>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="block-text rel zmin">
+										<a title="" href="#">REALIDADE CLÍNICA COM CADAVER FRESCO</a>
+											<div class="mark">Minha expectativa: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span>
+											</div>
+										<p> <video width="100%" height="100%" poster="img/capa-video-medicina2.jpg" controls>
+   <source src="http://pvbps-sambavideos.akamaized.net/account/182/75/2018-08-07/video/0dedfffcade98d8515ddab100c6ff166/0dedfffcade98d8515ddab100c6ff166_1080p.mp4" type="video/mp4">
+   <source src="movie.ogg" type="video/ogg">
+   Your browser does not support the video tag.
+</video>    	</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+										</div>
+										<div class="person-text rel text-light">
+										<img src="slider/img/testimonials/2.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Profa. Dra. Silvana Pasetto</a>
+										<span>Dra. em Biologia e Patologia Buco-Dental</span>
+										</div>
+									</div>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<!--TIMELINE-->
+<div id="timeline" class="text-center">
+<div class="container">
+<div class="section-title center">
+<h2>Agenda</h2>
+<hr>
+<div class="page">
+  <div class="page__demo">
+    <div class="main-container page__container">
+      <div class="timeline">
+        <div class="timeline__group">
+          <span class="timeline__year">2018</span>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">14</span>
+              <span class="timeline__month">DEZ</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Embarque no Aeroporto de Guarulhos na cidade de São Paulo/SP</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">15</span>
+              <span class="timeline__month">Dez</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Evento privado Kroton</p>
+              </div>
+            </div>
+          </div>
+            <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">16</span>
+              <span class="timeline__month">Dez</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Abertura do evento<br>
+               Aula de abertura do curso de anatomia<br>
+               Noite livre</p>
+              </div>
+            </div>
+          </div>
+            <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">17</span>
+              <span class="timeline__month">Dez</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Curso de anatomia no Hospital de Simulação USF<br>
+                  Noite livre </p>
+              </div>
+            </div>
+          </div>
+           <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">18</span>
+              <span class="timeline__month">Dez</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Curso de anatomia USF<br>
+                Noite livre</p>
+              </div>
+             </div>
+           </div>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">19</span>
+              <span class="timeline__month">Dez</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Curso de anatomia USF<br>
+                Formatura dos alunos </p>
+               </div>
+             </div>
+           </div>
+           <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">20</span>
+              <span class="timeline__month">Dez</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Dia livre<br>
+                Retorno para o Brasil</p>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+<!-- Pricing Section -->
+<div id="pricing" class="text-center">
+<div class="container">
+<div class="section-title center">
+<h2>Investimento</h2>
+<hr>
+<p>1˚ Intercâmbio <strong>Brasil-Estados Unidos</strong> de Anatomia Clínica Aplicada em cadáver fresco para alunos do curso de Odontologia. O evento será realizado no Hospital de simulação da University of South Florida de <strong>16 a 19 de dezembro de 2018</strong>.<br> Faça já a sua pré-inscrição, as vagas são limitadas!</p>
+
+<div class="row">
+<div class="col-md-4 col-md-offset-2">
+<div class="pricing-table">
+<div class="plan-name">
+<h3>INVISTA NA SUA CARREIRA</h3>
+</div>
+<div class="plan-list">
+<ul>
+<li>Evento exclusivo para alunos do curso de Odontologia do Grupo Kroton</li>
+<li>Certificação Internacional</li>
+<li>Solenidade de formatura</li>
+<li>Assessoria de viagem gratuita</li>
+<li>Simulação cirúrgica e de trauma</li>
+<li>Simulação CTI</li>
+<li>Revisão anatômica</li>
+<li>Treinamento de urgência </li>
+<li>Pagamento facilitado</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="pricing-table highlight-plan">
+<div class="plan-name">
+<h3>PACOTE DE INTERCÂMBIO PARA ALUNOS</h3>
+</div>
+<div class="plan-price">
+<div class="price-value">US$1,800</div>
+</div>
+<div class="plan-list">
+<ul>
+<li>Curso de Anatomia Clínica Aplicada</li>
+<li>Evento de 6 dias / 4 noites</li>
+<li>Hospedagem Disney / Windham Resort</li>
+<li>Alimentação e traslados inclusos</li>
+<li>O pacote não inclui as passagens  aéreas</li>
+</ul>
+</div>
+<div class="plan-signup"> <a href="#contact" class="btn-system border-btn">quero fazer minha PRÉ-INSCRIÇÃO</a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+<div class="container">
+<div class="section-title center">
+<h2>Faça sua Pré-Inscrição</h2>
+<hr>
+<div class="col-md-8 col-md-offset-2">
+	<p>Preencha seus dados e garanta já a sua pré-inscrição para o 1˚ intercâmbio <strong>Brasil - Estados Unidos</strong> de Anatomia Clínica Aplicada. As vagas são limitadas!</p>
+	<p>Ao realizar sua pré-inscrição, você receberá automaticamente um e-mail contendo todas as informações sobre a <strong>assessoria de viagem</strong>, gratuita e exclusiva, para os alunos da Kroton. Este serviço oferece a orientação completa sobre a documentação necessária para a realização do intercâmbio (passaporte, visto facilitado, vacinas e seguro).</p>
+<p><em>Regulamento</em> <a href="docs/regulamento-corpusanatomy-2018.pdf" target="_blank"><img src="img/pdf-1.png" width="30" height="30" alt="Baixar regulamento"></a>
+   </p>
+<br></div>
+	
+<form class="form" action="retorno-pre-inscricao.php" method="POST" name="dados" onsubmit="return enviardados();">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+			<input name="Nome" type="text" class="form-control" value="" size="" maxlength="" placeholder="Nome Completo" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+			<input name="Instituição" type="text" class="form-control" value="" size="" maxlength="" placeholder="Instituição" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+			<input name="E-mail" type="email" class="form-control" value="" size="" maxlength="" placeholder="E-mail" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+			<input name="Curso" type="text" class="form-control" value="" size="" maxlength="" placeholder="Curso" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+			<input name="Ano" type="text" class="form-control" value="" size="" maxlength="" placeholder="Ano" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+			<input name="Período" type="text" class="form-control" value="" size="" maxlength="" placeholder="Período" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+			<input name="Telefone" type="text" class="form-control" value="" size="" maxlength="" placeholder="Telefone" required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+			<input name="CPF" type="text" class="form-control" value="" size="" maxlength="" placeholder="C.P.F." required>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+			<textarea name="Mensagem" class="form-control" rows="4" placeholder="Qual a sua espectativa para este Intercâmbio Internacional?" required></textarea>
+			<p class="help-block text-danger"></p>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+			<p>Como você pretende realizar o pagamento deste investimento?</p>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<select name="Pagamento" class="form-group" style="color: #999;">
+				<option value="Cartão de Crédito">Cartão de Crédito (em até 5x sem juros)</option>
+				<option value="Boleto">Boleto Bancário (em até 5x sem juros)</option>
+				<option value="À vista">À vista</option>
+			</select>
+		</div>
+		<div class="col-md-12">
+			<button style="width: 100%; margin: 0px;" type="submit" class="btn btn-custom btn-lg" name="BTEnvia" value="Enviar">Fazer Pré-Inscrição</button>
+		</div>
+	</div>
+</form>
+
+<div class="social">
+	<ul>
+		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+	</ul>
+</div>
+	
+</div>
+</div>
+</div>
+
+<div id="footer">
+	<div class="container text-center">
+		<div class="fnav">
+		<p>Copyright &copy; 2018 PROJETO CORPUS ANATOMY</p>
+		</div>
+	</div>
+</div>
+
+<!-- JavaScript -->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- JavaScript Slider	  -->
+<script src="slider/js/slider-jquery.min.js"></script>
+<script src="slider/js/slider-bootstrap.min.js"></script>
+
+</body>
+</html>
