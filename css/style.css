@@ -228,7 +228,7 @@ header .intro-text {
 	padding: 120px 0;
 	background: #FFF;
 	padding-left:20px;
-	padding-bottom:20px
+	padding-bottom:60px
 }
 .program .fa {
 	font-size: 20px;
@@ -243,6 +243,7 @@ header .intro-text {
 	font-weight:700;
 	color:#45C4DF;
 }
+
 
 /* Pricing Section */
 #pricing1 {
