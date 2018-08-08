@@ -243,6 +243,14 @@ header .intro-text {
 	font-weight:700;
 	color:#45C4DF;
 }
+.btn2 {
+  padding: 20px;
+  background-color:#333;
+  color:#FFF;
+  font-size: 25px;
+  line-height: 1.5em;
+  border-radius: 0px;
+}
 
 
 /* Pricing Section */
