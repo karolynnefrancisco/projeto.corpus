@@ -92,8 +92,8 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #FFFFFF;
-	font-weight: 400;
-	font-size: 15px;
+	font-weight: 600;
+	font-size: 13px;
 	letter-spacing: 1px;
 	background: none !important;
 }
@@ -423,7 +423,31 @@ header .intro-text {
 	padding: 120px 0;
 	background: #333333;
 }
+/* FAQ */
+#faq {
+	padding: 120px 0;
+	background: #45C4DF;
+	color:#FFF;
+}
+h7 {
+	font-size: 35px;
+	font-weight: 700;
+	margin-top:40px;
+	padding-left:5px;
+	color: #666666;
+}
+h8 {
+	font-size: 15px;
+	font-weight: 200;
+	color: #666666;
+	padding-left:5px;
+}
 
+#testimonial .fa {
+	font-size: 30px;
+	color: #45C4DF;
+	padding-bottom:5px;
+}
 /*TIMELINE*/	
 
 #timeline {
